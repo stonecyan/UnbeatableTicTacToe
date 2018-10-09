@@ -8,3 +8,13 @@ C:\Users\Stone\Desktop\Tech Academy\To Commit\TicTacToe\TicTacToe\obj\Debug\TicT
 C:\Users\Stone\Desktop\Tech Academy\To Commit\TicTacToe\TicTacToe\bin\Debug\System.ValueTuple.dll
 C:\Users\Stone\Desktop\Tech Academy\To Commit\TicTacToe\TicTacToe\bin\Debug\System.ValueTuple.xml
 C:\Users\Stone\Desktop\Tech Academy\To Commit\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.CopyComplete
+C:\Users\Stone\Desktop\Tech Academy\UnbeatableTicTacToe\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe.config
+C:\Users\Stone\Desktop\Tech Academy\UnbeatableTicTacToe\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe
+C:\Users\Stone\Desktop\Tech Academy\UnbeatableTicTacToe\TicTacToe\TicTacToe\bin\Debug\TicTacToe.pdb
+C:\Users\Stone\Desktop\Tech Academy\UnbeatableTicTacToe\TicTacToe\TicTacToe\bin\Debug\System.ValueTuple.dll
+C:\Users\Stone\Desktop\Tech Academy\UnbeatableTicTacToe\TicTacToe\TicTacToe\bin\Debug\System.ValueTuple.xml
+C:\Users\Stone\Desktop\Tech Academy\UnbeatableTicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csprojAssemblyReference.cache
+C:\Users\Stone\Desktop\Tech Academy\UnbeatableTicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\Stone\Desktop\Tech Academy\UnbeatableTicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.CopyComplete
+C:\Users\Stone\Desktop\Tech Academy\UnbeatableTicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
+C:\Users\Stone\Desktop\Tech Academy\UnbeatableTicTacToe\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb

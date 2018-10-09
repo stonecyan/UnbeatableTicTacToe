@@ -46,14 +46,16 @@ namespace TicTacToe
             Console.WriteLine();
             PrintCell();
             Startgame(board);
-            while(true)
+            bool win = false;
+            while(win==false)
             {
                 Print(board);
 
                 //Picking a cell
                 bool validAnswer = false;
+                bool isEmpty = false;
                 int pickedCell = 0;
-                while (!validAnswer)
+                while (!validAnswer || !isEmpty)
                 {
                     Console.WriteLine("Enter the cell you want to play: ");
                     validAnswer = int.TryParse(Console.ReadLine(), out pickedCell);
@@ -63,6 +65,17 @@ namespace TicTacToe
                         validAnswer = false;
                         Console.WriteLine("Please enter an integer from 1-9.");
                     }
+                    var possible = SelCell(pickedCell);
+                    if(board[possible.row, possible.col]==" ")
+                    {
+                        isEmpty = true;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Space is already taken.");
+                    }
+                    
+
                 }
 
                 var selected = SelCell(pickedCell);
@@ -79,10 +92,22 @@ namespace TicTacToe
                 }
 
                 board[selected.row, selected.col] = currentPlayer;
+                win=CheckWin(board,currentPlayer);
                 turn++;
 
+                if (win==true)
+                {
+                    Console.WriteLine(currentPlayer + " has won!"); 
+                }
+                if (turn==9 && win==false)
+                {
+                    Console.WriteLine("Draw!");
+                    break;
+                }
+
             }
-            
+            Console.ReadLine();
+
 
 
         }

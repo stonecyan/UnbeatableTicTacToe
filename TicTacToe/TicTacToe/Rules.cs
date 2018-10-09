@@ -117,32 +117,44 @@ namespace TicTacToe
             return (row, col);
         }
 
-        public static CheckWin(string[,] board)
+        public static bool CheckWin(string[,] board, string currentPlayer)
         {
-            bool win;
-            if (board[0,0]==board[0,1] && board[0,1]==board[0,2])
+            string player = currentPlayer;
+            if (player==board[0,0] && player== board[0,1] && player==board[0,2])
             {
-                win = true;
+                return true;
             }
-            if (board[1,0]==board[1, 1] && board[1, 1] == board[1, 2])
+            if (player==board[1,0] && player==board[1, 1] && player == board[1, 2])
             {
-                win = true;
+                return true;
             }
-            if (board[2, 0] == board[2, 1] && board[2,1] == board[2, 2])
+            if (player == board[2, 0] && player == board[2, 1] && player == board[2, 2])
             {
-                win = true;
+                return true;
             }
-            if (board[0, 0] == board[1, 0] && board[0, 1] == board[2, 0])
+            if (player==board[0, 0] && player == board[1, 0] && player == board[2, 0])
             {
-                win = true;
+                return true;
             }
-            if (board[0, 1] == board[1, 1] && board[0, 1] == board[2, 0])
+            if (player == board[0, 1] && player == board[1, 1] && player == board[2, 1])
             {
-                win = true;
+                return true;
             }
-            if (board[0, 2] == board[1, 2] && board[0, 2] == board[2, 2])
+            if (player == board[0, 2] && player == board[1, 2] && player == board[2, 2])
             {
-                win = true;
+                return true;
+            }
+            if (player == board[0,0]&& player == board[1,1] && player == board[2,2])
+            {
+                return true;
+            }
+            if (player == board[2,0] && player == board[1,1] && player == board[0,2])
+            {
+                return true;
+            }
+            else
+            {
+                return false;
             }
 
         }
